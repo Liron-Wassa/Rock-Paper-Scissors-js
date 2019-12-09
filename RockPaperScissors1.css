@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background-color: rgb(46, 47, 48);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#WinnerDisplay{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height: 90px;
+    background-color: rgb(124, 241, 124);
+    border: 2px solid green;
+}
+
+.hideWinner{
+
+    opacity: 0;
+}
+
+.showWinner{
+
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+#WinnerMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-weight: bold;
+}
+
+/* #container{
+    background-color: rgb(70, 180, 125);
+} */
+
+#topScores{
+    /* background-color: blueviolet; */
+    widows: 100%;
+}
+
+#scoreDisplay{
+    /* background-color: blue; */
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+h2{
+    width: 30%;
+    color: rgb(233, 191, 86);
+}
+
+p{
+    color: rgb(233, 191, 86);;
+}
+
+select{
+    height: 25px;
+    margin: 5px;
+}
+
+p{
+    margin: 5px;
+}
+
+#decition{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#symbols{
+    width: 100%;
+    /* background-color: red; */
+}
+
+#symbolsContent{
+    position: relative;
+    max-width: 600px;
+    height: 168px;
+    /* background-color: orangered; */
+    /* display: flex; */
+    margin: 40px auto;
+}
+
+img{
+    width: 90%;
+}
+
+.hideSymbol1{
+    position: absolute; left: 0px;
+    opacity: 0;
+}
+
+.hideSymbol2{
+    position: absolute; right: 0px;
+    opacity: 0;
+}
+
+.showSymbol1{
+    position: absolute; left: 60px;
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+
+.showSymbol2{
+    position: absolute; right: 60px;
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+
+#p1Side{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    /* background-color: blue; */
+}
+
+#p2Side{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    /* background-color: blue; */
+}
+
+#gameButtons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(196, 193, 193);
+    color: rgb(46, 47, 48);
+    font-weight: bold;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+}
