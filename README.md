@@ -7,13 +7,12 @@ Rock Paper Scissors written in OOP
 - JavaScript
 
 ## Illustration
-<img src="https://user-images.githubusercontent.com/56726154/74051141-1b6f4380-49e0-11ea-8ef8-d8144d51a27e.png" width="500"/>
+<img src="https://user-images.githubusercontent.com/56726154/74052105-fbd91a80-49e1-11ea-821f-9d3dcd87a735.png" width="500"/>
 
 ## How to use?
-- to start the watch click on start button
-- to stop the watch click on stop button (required to start the watch)
-- to reset the watch click on reset button (required to stop the watch)
-- to continue the watch click on start button when you stop the watch
+- click on drop button to see your selection (rock, paper, scissors)
+- click on reset to restart the game
+- you can also choose the rounds of game by selecting the "Playing to" selection
 
 ## Functionalities
 Drop selection, reset the game
