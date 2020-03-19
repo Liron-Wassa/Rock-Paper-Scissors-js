@@ -1,5 +1,7 @@
 # Introduction
 Rock Paper Scissors written in OOP
+<br/>
+Live link: https://liron-wassa.github.io/Rock-Paper-Scissors-js/
 
 ## Technologies
 - HTML
